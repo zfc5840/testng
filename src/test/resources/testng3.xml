@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite name="Suite1">
+        <parameter name="test1" value="Tankwwww" />
+        <parameter name="test1" value="Xiao" /><!-- 默认是最后一个 -->
+    <test name="test12">
+        <classes>
+            <class name="com.testNG.testNG.ParameterizedTest" />
+        </classes>
+    </test>
+</suite>
+
